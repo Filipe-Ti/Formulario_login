@@ -6,13 +6,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.0.0",
+    "sequelize": "^6.3.4",
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon server.js"
   },
   "author": "FilipeProtec",
   "license": "ISC"

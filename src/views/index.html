@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt_BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <Link rel= "stylesheet" href="/style/style.css"/>
-  <title>Formulário de Login e Cadastro</title>
+  
+  <title>Tela de Login</title>
+
+  <link rel="stylesheet" href="/public/style/style.css"/>
 </head>
 <body>
-  <form>
-
+  <div id="login-container">
     <h1>Login</h1>
-
-    <fieldset>
-      <div class="field-group">
-        <div class="field">
-          <label for="email">Digite seu e-mail</label>
-          <input id="email" name="email" placeholder="seu @email.com" 
+    <form action="">
+      <label for="email">Digite seu e-mail</label>
+          <input type="email" name="email" id="email" placeholder="seu @email.com" autocomplete="off" 
           autofocus type="email" required="required">
-        </div>
-        <div>
-          <label for="senha">Digite sua senha</label>
-         <input id="senha" name="senha" required="required" 
-         type="password" placeholder="sua senha">
-        </div> 
-        <div>
-         <button type="submit">Entrar</button>
-        </div>       
-      </div>
-    </fieldset>
-  </form>
-  <script src="index.js"></script>
+          <label for="password">Digite sua senha</label>
+          <input type="password" name="password" id="password" placeholder="******" required="required"> 
+          <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+          <input type="submit" value="Login">
+    </form>
+    <div id="register-container">
+      <p>Ainda não tem uma conta?</p>
+      <a href="#">Registrar</a>
+    </div>
+  </div>  
 </body>
 </html>
 
