@@ -1,19 +1,19 @@
 {
-  "name": "formulario_html",
+  "name": "formulario_login",
   "version": "1.0.0",
-  "description": "Formulario_login",
-  "main": "src/server.js",
+  "description": "Aplicação de login básico com Html, javaScript, Css, NodeJs e Sqlite3",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.0.0",
     "sequelize": "^6.3.4",
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
   "author": "FilipeProtec",
   "license": "ISC"
